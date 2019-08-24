@@ -1,3 +1,7 @@
 <div style="font-size:16px;font-family:  'Segoe UI', Helvetica, sans-serif;">
     Vue is binded on <b>{{ title }}</b> Jahia component
+    <div>
+        <button @click.prevent="toggleUi()">Hide / show</button>
+        <p v-if="showUi">Toggle content</p>
+    </div>
 </div>

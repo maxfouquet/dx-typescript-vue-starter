@@ -18,8 +18,8 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      "components/**/*.spec.ts",
-      "components/**/*.ts"
+      "**/*.spec.ts",
+      "**/*.ts"
     ],
 
     plugins: [
@@ -43,7 +43,7 @@ module.exports = function(config) {
     // list of files / patterns to exclude
     exclude: [
         "node-modules",
-        "components/**/*.d.ts"
+        "**/*.d.ts"
     ],
 
 

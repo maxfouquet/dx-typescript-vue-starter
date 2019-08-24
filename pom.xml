@@ -77,7 +77,6 @@
                             <goal>yarn</goal>
                         </goals>
                     </execution>
-                    <!--
                     <execution>
                         <id>yarn test</id>
                         <phase>generate-resources</phase>
@@ -88,7 +87,6 @@
                             <arguments>test</arguments>
                         </configuration>
                     </execution>
-                    -->
                     <execution>
                         <id>yarn build</id>
                         <phase>generate-resources</phase>
